@@ -45,18 +45,20 @@ myBlockChain.getBlockHeight().then((height) => {
 This function print in the console the list of blocks in the blockchain
 
 * Uncomment the function
-* 
+ 
 ```
 myBlockChain.getBlock(0).then((block) => {
 	console.log(JSON.stringify(block));
-}).catch((err) => { console.log(err);});
+}).catch((err) => { 
+	console.log(err);
+});
 
 ```
 
 This function get from the Blockchain the block requested.
 
 * Uncomment the function
-* 
+
 ```
 myBlockChain.getBlock(0).then((block) => {
   console.log(JSON.stringify(block));
